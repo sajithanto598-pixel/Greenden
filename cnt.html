@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Page</title>
+  <title>Greenden | Contact</title>
 
-  <!-- Tailwind CSS CDN -->
+  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Google Font (Optional - Professional look) -->
+  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <style>
@@ -17,148 +17,109 @@
     }
   </style>
 </head>
-<body class="bg-gray-100">
-    <div id="app">
 
-    <!-- Navbar -->
-    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-2xl sticky top-0 z-10">
-      
-      <h1 class="text-2xl font-bold">Greenden</h1>
+<body class="bg-gray-50">
 
-      <!-- Desktop Menu -->
-      <ul class="hidden md:flex gap-5 text-gray-600">
-        <li><a class="hover:underline hover:text-black" href="index.html">Home</a></li>
-        <li><a class="hover:underline hover:text-black" href="product.html">Product</a></li>
-        <li><a class="hover:underline hover:text-black" href="cnt.html">Contact</a></li>
-      </ul>
+  <!-- Navbar -->
+  <nav class="bg-green-100 px-6 py-4 flex items-center justify-between shadow-md sticky top-0 z-10">
+    <h1 class="text-2xl font-bold">Greenden</h1>
 
-      <!-- Mobile Menu Icon -->
-      <svg xmlns="http://www.w3.org/2000/svg" 
-           class="w-6 h-6 md:hidden cursor-pointer" 
-           fill="none" 
-           viewBox="0 0 24 24"
-           stroke="currentColor">
-        <path stroke-linecap="round" 
-              stroke-linejoin="round" 
-              stroke-width="2" 
-              d="M4 6h16M4 12h16M4 18h16" />
-      </svg>
+    <ul class="hidden md:flex gap-8 text-gray-700 font-medium">
+      <li><a class="hover:text-black transition" href="index.html">Home</a></li>
+      <li><a class="hover:text-black transition" href="product.html">Product</a></li>
+      <li><a class="text-black font-semibold" href="cnt.html">Contact</a></li>
+    </ul>
+  </nav>
 
-    </nav>
+  <!-- Contact Section -->
+  <section class="max-w-6xl mx-auto px-6 py-16">
 
-  </div>
-
-  <!-- Vite Main JS -->
-  <script type="module" src="/src/main.js"></script>
-
-
-  <section class="min-h-screen flex items-center justify-center px-6 py-12">
-    <div class="max-w-7xl w-full bg-white shadow-xl rounded-xl grid md:grid-cols-2 overflow-hidden">
+    <div class="bg-white rounded-2xl shadow-xl grid md:grid-cols-2 overflow-hidden">
 
       <!-- LEFT SIDE -->
-      <div class="bg-gray-50 p-12 flex flex-col justify-between border-r">
+      <div class="bg-gray-50 p-10 flex flex-col justify-center border-r">
 
-        <div>
-          <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Get in touch
-          </h1>
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          Get in touch
+        </h2>
 
-          <p class="text-gray-600 leading-relaxed mb-10">
-            Have a question or need plant advice? Our experts are ready to help you choose the perfect green companion for your space.
+        <p class="text-gray-600 leading-relaxed mb-10">
+          Have a question or need plant advice? Our experts are ready to help you choose the perfect green companion for your space.  
+          Reach out today and let’s make your home greener and healthier.
+        </p>
 
-Reach out today and let’s make your home greener and healthier.
-          </p>
+        <div class="space-y-6 text-gray-700">
 
-          <!-- Contact Info -->
-          <div class="space-y-6 text-gray-700">
-
-            <div class="flex items-start gap-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-500 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                  d="M3 21h18M9 21V9m6 12V3m-6 6h6" />
-              </svg>
-              <div>
-                <p>28 Arasur , Avinashi road</p>
-                <p>Coimbatore , Tamilnadu</p>
-              </div>
-            </div>
-
-            <div class="flex items-center gap-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                  d="M3 5h2l3 7-1 4h11l3-9H6" />
-              </svg>
-              <p>+91 80806 52658</p>
-            </div>
-
-            <div class="flex items-center gap-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                  d="M16 12H8m8 0a4 4 0 01-8 0m8 0V8a4 4 0 00-8 0v4" />
-              </svg>
-              <p>Greenden_grd26@gmail.com</p>
-            </div>
-
+          <div>
+            <p class="font-semibold">Address</p>
+            <p>28 Arasur, Avinashi Road</p>
+            <p>Coimbatore, Tamil Nadu</p>
           </div>
+
+          <div>
+            <p class="font-semibold">Phone</p>
+            <p>+91 80806 52658</p>
+          </div>
+
+          <div>
+            <p class="font-semibold">Email</p>
+            <p>greenden_grd26@gmail.com</p>
+          </div>
+
         </div>
       </div>
 
       <!-- RIGHT SIDE (FORM) -->
-      <div class="p-12 bg-white">
+      <div class="p-10">
 
         <form class="space-y-6">
 
-          <!-- Name Row -->
           <div class="grid md:grid-cols-2 gap-6">
             <div>
               <label class="block text-sm font-medium text-gray-700 mb-2">
-                First name
+                First Name
               </label>
               <input type="text"
-                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400 focus:border-green-400">
             </div>
 
             <div>
               <label class="block text-sm font-medium text-gray-700 mb-2">
-                Last name
+                Last Name
               </label>
               <input type="text"
-                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400 focus:border-green-400">
             </div>
           </div>
 
-          <!-- Email -->
           <div>
             <label class="block text-sm font-medium text-gray-700 mb-2">
               Email
             </label>
             <input type="email"
-              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400 focus:border-green-400">
           </div>
 
-          <!-- Phone -->
           <div>
             <label class="block text-sm font-medium text-gray-700 mb-2">
-              Phone number
+              Phone Number
             </label>
             <input type="tel"
-              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400 focus:border-green-400">
           </div>
 
-          <!-- Message -->
           <div>
             <label class="block text-sm font-medium text-gray-700 mb-2">
               Message
             </label>
             <textarea rows="5"
-              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"></textarea>
+              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400 focus:border-green-400"></textarea>
           </div>
 
-          <!-- Button -->
           <div class="flex justify-end">
             <button type="submit"
-              class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-medium shadow-md transition duration-300">
-              Send message
+              class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium shadow-md transition duration-300">
+              Send Message
             </button>
           </div>
 
@@ -167,11 +128,20 @@ Reach out today and let’s make your home greener and healthier.
 
     </div>
   </section>
-  <section class = "bg-green-100 p-10 flex flex-col gap-5 mt-5">
-  <h1 class = "text-4xl font-bold">Greenden</h1>
-  <p>GreenDen is dedicated to delivering premium plants and sustainable green solutions. Our mission is to make every home healthier, greener, and more vibrant.</p>
-  <p>@ 2026 Sajith.com</p>
-</section>
+
+  <!-- Footer -->
+  <footer class="bg-green-100 mt-10">
+    <div class="max-w-6xl mx-auto px-6 py-10 text-center">
+      <h3 class="text-3xl font-bold mb-4">Greenden</h3>
+      <p class="text-gray-700 mb-4">
+        Greenden is dedicated to delivering premium plants and sustainable green solutions.  
+        Our mission is to make every home healthier, greener, and more vibrant.
+      </p>
+      <p class="text-gray-600 text-sm">
+        © 2026 Sajith.com
+      </p>
+    </div>
+  </footer>
 
 </body>
 </html>
